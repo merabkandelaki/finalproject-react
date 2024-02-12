@@ -1,0 +1,184 @@
+@media screen and (width <=1920px) {
+    .header {
+        padding: 35px 40px;
+    }
+
+    .header-logo img {
+        width: 200px;
+    }
+
+    .navbar-menu {
+        gap: 60px;
+        font-size: 30px;
+    }
+
+    .user-logged-in {
+        gap: 60px;
+    }
+
+    .log-out {
+        font-size: 30px;
+    }
+
+    .user-name {
+        font-size: 30px;
+    }
+
+    .user-icon {
+        width: 39px;
+        height: 43px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .header {
+        padding: 25px 30px;
+    }
+
+    .header-logo img {
+        width: 160px;
+    }
+
+    .navbar-menu {
+        gap: 35px;
+        font-size: 25px;
+    }
+
+    .user-logged-in {
+        gap: 35px;
+    }
+
+    .log-out {
+        font-size: 25px;
+    }
+
+    .user-name {
+        font-size: 25px;
+    }
+
+    .user-icon {
+        width: 30px;
+        height: 35px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .burger-menu {
+        display: block;
+        right: 10px;
+        top: 28px;
+        cursor: pointer;
+    }
+
+    .header {
+        padding: 21px 26px;
+    }
+
+    .header-logo img {
+        width: 130px;
+    }
+
+    .navbar-menu {
+        padding: 0px 0px 0px 10px;
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        align-items: end;
+        gap: 15px;
+        right: 26px;
+        top: 80px;
+        font-size: 21px;
+        background-color: rgb(9, 2, 49, 50%);
+    }
+
+    .user-logged-in {
+        gap: 18px;
+    }
+
+    .log-out {
+        font-size: 21px;
+    }
+
+    .user-name {
+        font-size: 21px;
+    }
+
+    .user-icon {
+        width: 27px;
+        height: 32px;
+    }
+
+    .navbar-menu--active {
+        display: flex;
+    }
+}
+
+@media screen and (width <=768px) {
+    .header {
+        padding: 17px 22px;
+    }
+
+    .header-logo img {
+        width: 110px;
+    }
+
+    .navbar-menu {
+        padding: 0px 0px 0px 7px;
+        gap: 10px;
+        right: 22px;
+        top: 75px;
+        font-size: 18px;
+    }
+
+    .user-logged-in {
+        gap: 14px;
+    }
+
+    .log-out {
+        font-size: 18px;
+    }
+
+    .user-name {
+        font-size: 18px;
+    }
+
+    .user-icon {
+        width: 22px;
+        height: 27px;
+    }
+}
+
+@media screen and (width <=375px) {
+    .header {
+        padding: 12px 17px;
+    }
+
+    .header-logo img {
+        width: 70px;
+    }
+
+    .navbar-menu {
+        padding: 0px 0px 0px 3px;
+        gap: 5px;
+        right: 17px;
+        top: 68px;
+        font-size: 12px;
+    }
+
+    .user-logged-in {
+        gap: 10px;
+    }
+
+    .log-out {
+        font-size: 12px;
+    }
+
+    .user-name {
+        font-size: 12px;
+    }
+
+    .user-icon {
+        width: 15px;
+        height: 20px;
+    }
+}

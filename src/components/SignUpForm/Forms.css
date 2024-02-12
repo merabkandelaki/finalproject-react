@@ -1,0 +1,90 @@
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.sign-up-title {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: antiquewhite;
+    margin-bottom: 60px;
+}
+
+.icon-user, .icon-email, .icon-password {
+    width: 45px;
+    height: 52px;
+    color: aliceblue;
+    animation: wiggle 2s linear infinite;
+}
+
+.icon-email, .icon-password {
+    margin-top: 30px;
+}
+
+@keyframes wiggle {
+    0%, 7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%, 100% {
+        transform: rotateZ(0);
+    }
+}
+
+.sign-up-input-username, .sign-up-input-email, .sign-up-input-password {
+    padding: 10px 14px;
+    width: 450px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: normal;
+    border: none;
+    border-radius: 35px;
+    color: darkslategray;
+}
+
+.button-register {
+    padding: 10px 14px;
+    width: 240px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    border-radius: 35px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.errors-username, .errors-email, .errors-password {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: yellow;
+    margin-top: 5px;
+}

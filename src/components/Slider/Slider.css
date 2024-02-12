@@ -1,0 +1,24 @@
+.container {
+  padding: 10px 35px 0px 35px;
+  background-color: rgb(9, 2, 49);
+}
+
+.container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.myswiper {
+  height: 600px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  border-radius: 25px;
+}

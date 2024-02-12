@@ -1,0 +1,27 @@
+.not-found {
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+.not-found-image-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.not-found-image-title img {
+    width: 388px;
+    height: 293px;
+}
+
+.not-found-image-title h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}

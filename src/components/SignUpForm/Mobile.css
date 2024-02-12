@@ -1,0 +1,139 @@
+@media screen and (width <=1920px) {
+    .sign-up-title {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .sign-up-input-username, .sign-up-input-email, .sign-up-input-password {
+        font-size: 30px;
+    }
+
+    .button-register {
+        font-size: 30px;
+    }
+
+    .errors-username, .errors-email, .errors-password {
+        font-size: 30px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .sign-up-title {
+        font-size: 25px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+
+    .icon-user, .icon-email, .icon-password {
+        width: 40px;
+        height: 47px;
+        color: aliceblue;
+        animation: wiggle 2s linear infinite;
+    }
+
+    .sign-up-input-username, .sign-up-input-email, .sign-up-input-password {
+        padding: 8px 12px;
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .button-register {
+        padding: 8px 12px;
+        width: 190px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .errors-username, .errors-email, .errors-password {
+        font-size: 25px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .sign-up-title {
+        font-size: 21px;
+    }
+
+    .sign-up-input-username, .sign-up-input-email, .sign-up-input-password {
+        padding: 7px 10px;
+        width: 250px;
+        height: 45px;
+        font-size: 21px;
+    }
+
+    .button-register {
+        padding: 7px 10px;
+        width: 160px;
+        height: 45px;
+        font-size: 21px;
+    }
+
+    .errors-username, .errors-email, .errors-password {
+        font-size: 21px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .sign-up-title {
+        font-size: 18px;
+    }
+
+    .icon-user, .icon-email, .icon-password {
+        width: 37px;
+        height: 44px;
+    }
+
+    .sign-up-input-username, .sign-up-input-email, .sign-up-input-password {
+        padding: 6px 10px;
+        width: 190px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button-register {
+        padding: 6px 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .errors-username, .errors-email, .errors-password {
+        font-size: 18px;
+    }
+}
+
+@media screen and (width <=375px) {
+    .sign-up-title {
+        font-size: 12px;
+    }
+
+    .icon-user, .icon-email, .icon-password {
+        width: 27px;
+        height: 34px;
+    }
+
+    .icon-email, .icon-password {
+        margin-top: 17px;
+    }
+
+    .sign-up-input-username, .sign-up-input-email, .sign-up-input-password {
+        padding: 5px 8px;
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .button-register {
+        padding: 5px 8px;
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+
+    .errors-username, .errors-email, .errors-password {
+        font-size: 12px;
+    }
+}

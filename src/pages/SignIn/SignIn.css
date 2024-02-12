@@ -1,0 +1,23 @@
+.login {
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+.login-success {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-success h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    color: antiquewhite;
+}

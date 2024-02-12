@@ -1,0 +1,35 @@
+@media screen and (width <=1440px) {
+    .not-found-image-title h1 {
+        font-size: 45px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .not-found-image-title h1 {
+        font-size: 37px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .not-found-image-title h1 {
+        font-size: 32px;
+    }
+
+    .not-found-image-title {
+        width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .not-found-image-title img {
+        width: 280px;
+        height: 210px;
+    }
+}
+
+@media screen and (width <=375px) {
+    .not-found-image-title h1 {
+        font-size: 28px;
+    }
+}
